@@ -22,7 +22,8 @@ import java.util.stream.Collectors
  * Which was written by EarthComputer for both EvilSourcerer and 0x2E
  */
 object BookBotCommand : ClientCommand(
-    name = "bookbotplugin",
+    name = "bookbot",
+    alias = arrayOf("dupebook"),
     description = "Writes to books"
 ) {
     init {
