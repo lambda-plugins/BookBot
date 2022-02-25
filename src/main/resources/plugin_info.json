@@ -1,11 +1,10 @@
 {
   "name": "BookBot",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "authors": ["NepNep21"],
   "description": "Writes to books",
   "url": "https://github.com/NepNep21/BookBot",
-  "min_api_version": "2.05.01",
+  "min_api_version": "3.1",
   "required_plugins": [],
-  "main_class": "me.nepnep.bookbot.BookBotPlugin",
-  "hot_reload": true
+  "main_class": "me.nepnep.bookbot.BookBotPlugin"
 }
