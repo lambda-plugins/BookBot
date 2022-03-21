@@ -8,7 +8,6 @@ import net.minecraft.item.ItemWritableBook
 import net.minecraft.nbt.NBTTagList
 import net.minecraft.nbt.NBTTagString
 import java.io.File
-import java.io.FileReader
 import java.util.*
 import java.util.stream.Collectors
 
@@ -97,9 +96,7 @@ object BookBotCommand : ClientCommand(
         if (file.exists()) {
             val heldItem = player.inventory.getCurrentItem()
             if (heldItem.item is ItemWritableBook) {
-                val reader = FileReader(file)
-                val content = reader.readText().trim()
-                reader.close()
+                val content = file.readText(Charsets.UTF_8)
 
                 val pages = NBTTagList()
 
