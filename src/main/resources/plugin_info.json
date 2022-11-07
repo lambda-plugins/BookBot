@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "authors": ["NepNep21"],
   "description": "Writes to books",
-  "url": "https://github.com/NepNep21/BookBot",
+  "url": "https://github.com/lambda-plugins/BookBot",
   "min_api_version": "3.2",
   "required_plugins": [],
   "main_class": "me.nepnep.bookbot.BookBotPlugin"
