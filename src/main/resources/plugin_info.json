@@ -4,7 +4,7 @@
   "authors": ["NepNep21"],
   "description": "Writes to books",
   "url": "https://github.com/NepNep21/BookBot",
-  "min_api_version": "3.1",
+  "min_api_version": "3.2",
   "required_plugins": [],
   "main_class": "me.nepnep.bookbot.BookBotPlugin"
 }
